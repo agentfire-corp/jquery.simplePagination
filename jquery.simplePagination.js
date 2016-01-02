@@ -81,7 +81,7 @@
 				$rows.hide();
 				$rows.slice((from-1), to).show();
 
-				of.innerHTML = from + ' to ' + to + ' of ' + $rows.length + ' entries';
+				of.innerHTML = from + '-' + to + ' of ' + $rows.length;
 
 				if ($rows.length <= settings.perPage) {
 					$(container).hide();
